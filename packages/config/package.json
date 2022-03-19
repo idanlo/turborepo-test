@@ -1,6 +1,6 @@
 {
     "name": "@idanlo/config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "index.js",
     "license": "MIT",
     "files": [
@@ -11,5 +11,6 @@
         "eslint-config-next": "^12.0.8",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-react": "7.28.0"
-    }
+    },
+    "gitHead": "9e00f5d73e58ead621c6d6848298f61aa8014cc2"
 }
