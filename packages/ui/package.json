@@ -1,6 +1,6 @@
 {
     "name": "@idanlo/ui",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "license": "MIT",
@@ -8,10 +8,10 @@
         "build": "tsc"
     },
     "devDependencies": {
+        "@idanlo/config": "^1.0.0",
+        "@idanlo/tsconfig": "^1.0.0",
         "@types/react": "^17.0.37",
         "@types/react-dom": "^17.0.11",
-        "@idanlo/tsconfig": "*",
-        "@idanlo/config": "*",
         "typescript": "^4.5.3"
     }
 }
