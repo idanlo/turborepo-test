@@ -1,5 +1,5 @@
 {
-    "extends": "@idanlo/tsconfig/react-library.json",
+    "extends": "@idanlo/tsconfig/node.json",
     "include": ["."],
     "exclude": ["dist", "build", "node_modules"],
     "compilerOptions": {

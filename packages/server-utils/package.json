@@ -1,0 +1,20 @@
+{
+    "name": "@idanlo/server-utils",
+    "version": "0.0.0",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@idanlo/config": "*",
+        "@idanlo/tsconfig": "*",
+        "@types/react": "^17.0.37",
+        "@types/react-dom": "^17.0.11"
+    },
+    "dependencies": {
+        "@types/express": "^4.17.13",
+        "express": "^4.17.3"
+    }
+}
