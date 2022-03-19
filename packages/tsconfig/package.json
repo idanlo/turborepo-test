@@ -1,6 +1,6 @@
 {
     "name": "@idanlo/tsconfig",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "index.js",
     "files": [
         "base.json",
@@ -10,5 +10,8 @@
     "dependencies": {
         "typescript": "^4.6.2"
     },
-    "gitHead": "9e00f5d73e58ead621c6d6848298f61aa8014cc2"
+    "publishConfig": {
+        "access": "public"
+    },
+    "gitHead": "661e14f7f78b00b487a856bddfdb10e1021cb161"
 }
