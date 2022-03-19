@@ -1,6 +1,6 @@
 {
     "name": "@idanlo/web",
-    "version": "0.0.0",
+    "version": "1.0.5",
     "private": true,
     "scripts": {
         "dev": "next dev",
@@ -9,18 +9,18 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@idanlo/ui": "^1.0.5",
         "next": "12.0.8",
         "react": "17.0.2",
-        "react-dom": "17.0.2",
-        "@idanlo/ui": "*"
+        "react-dom": "17.0.2"
     },
     "devDependencies": {
-        "@idanlo/config": "*",
-        "eslint": "7.32.0",
-        "next-transpile-modules": "9.0.0",
-        "@idanlo/tsconfig": "*",
+        "@idanlo/config": "^1.0.5",
+        "@idanlo/tsconfig": "^1.0.5",
         "@types/node": "^17.0.12",
         "@types/react": "17.0.37",
+        "eslint": "7.32.0",
+        "next-transpile-modules": "9.0.0",
         "typescript": "^4.5.3"
     }
 }

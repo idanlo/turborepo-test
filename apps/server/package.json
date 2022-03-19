@@ -1,6 +1,6 @@
 {
     "name": "@idanlo/server",
-    "version": "0.0.0",
+    "version": "1.0.5",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "private": true,
@@ -12,9 +12,9 @@
         "express": "^4.17.3"
     },
     "devDependencies": {
-        "@idanlo/config": "*",
-        "@idanlo/server-utils": "*",
-        "@idanlo/tsconfig": "*",
+        "@idanlo/config": "^1.0.5",
+        "@idanlo/server-utils": "^1.0.5",
+        "@idanlo/tsconfig": "^1.0.5",
         "@types/express": "^4.17.13",
         "@types/node": "^17.0.12",
         "eslint": "7.32.0",
